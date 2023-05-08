@@ -1,3 +1,8 @@
+@font-face {
+  font-family: norse-bold;
+  src: url(./fonts/Norse-Bold.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +22,23 @@ main {
 
 .logo {
   display: flex;
+  background-color: rgba(0, 0, 0, 0.329);
+  height: 15vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 15rem;
+  gap: 2rem;
+}
+
+.odin {
+  height: 12vh;
+}
+
+.name-logo {
+  color: white;
+  font-family: norse-bold, sans-serif;
+  font-size: 4rem;
 }
 
 .rhs {
