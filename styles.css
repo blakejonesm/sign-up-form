@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+}
+
+.lhs {
+  background-image: url(./images/photo-1585202900225-6d3ac20a6962.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 1;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+}
+
+.rhs {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.input-area {
+  background-color: #ffffff;
+}
+
+.action,
+.input-area,
+.third {
+  flex: 1;
+}
