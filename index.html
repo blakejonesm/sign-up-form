@@ -52,13 +52,14 @@
               <label for="telephone">Phone number:
                 <strong><span aria-label="required">*</span></strong>
               </label>
-              <input type="tel" id="telephone" name="telephone">
+              <input type="tel" id="telephone" name="telephone" minlength="9" maxlength="9">
             </div>
             <div class="field">
               <label for="user_password">Password:
                 <strong><span aria-label="required">*</span></strong>
               </label>
-              <input type="password" id="user_password" name="user_password">
+              <input type="password" id="user_password" name="user_password" 
+              pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
             </div>
             <div class="field">
               <label for="confirm_password">Confirm password:

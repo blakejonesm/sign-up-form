@@ -114,3 +114,7 @@ a {
   color: #596D48;
   font-weight: 900;
 }
+
+input:invalid {
+  border: 1px solid red;
+}
