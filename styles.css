@@ -6,6 +6,8 @@
 * {
   margin: 0;
   padding: 0;
+  border: 1px solid red;
+  box-sizing: border-box;
 }
 
 main {
@@ -48,12 +50,21 @@ main {
   flex: 2;
 }
 
-.input-area {
-  background-color: #ffffff;
-}
-
-.action,
+.blurb,
 .input-area,
 .third {
   flex: 1;
 }
+
+.dummy {
+  margin-left: 2rem;
+  margin-top: 6rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-area {
+  background-color: #ffffff;
+}
+
