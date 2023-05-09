@@ -28,36 +28,48 @@
         You know you want to!</h2>
       </div>
       <div class="middle">
-          <form action="#" method="post" class="form">
+          <form action="#" method="post" class="form" id="creation">
             <p class="start">Let's get started</p>
             <div class="field">
-              <label for="first_name">First name:</label>
+              <label for="first_name">First name:
+                <strong><span aria-label="required">*</span></strong>
+              </label>
               <input type="text" id="first_name" name="first_name">
             </div>
             <div class="field">
-              <label for="last_name">Last name:</label>
+              <label for="last_name">Last name:
+                <strong><span aria-label="required">*</span></strong>
+              </label>
               <input type="text" id="last_name" name="last_name">
             </div>
             <div class="field">
-              <label for="user_email">Email:</label>
+              <label for="user_email">Email:
+                <strong><span aria-label="required">*</span></strong>
+              </label>
               <input type="email" id="user_email" name="user_email">
             </div>
             <div class="field">
-              <label for="telephone">Phone number:</label>
+              <label for="telephone">Phone number:
+                <strong><span aria-label="required">*</span></strong>
+              </label>
               <input type="tel" id="telephone" name="telephone">
             </div>
             <div class="field">
-              <label for="user_password">Password:</label>
+              <label for="user_password">Password:
+                <strong><span aria-label="required">*</span></strong>
+              </label>
               <input type="password" id="user_password" name="user_password">
             </div>
             <div class="field">
-              <label for="confirm_password">Confirm password:</label>
+              <label for="confirm_password">Confirm password:
+                <strong><span aria-label="required">*</span></strong>
+              </label>
               <input type="password" id="confirm_password" name="confirm_password">
             </div>
           </form>
       </div>
       <div class="third">
-        <button>Create Account</button>
+        <button type="submit" form="creation">Create Account</button>
         <p class="already">Already have an account? <a href="#">Log in</a></p>
       </div>
     </section>
