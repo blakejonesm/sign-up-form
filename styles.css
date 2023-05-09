@@ -58,7 +58,7 @@ main {
 }
 
 .dummy {
-  margin-left: 2rem;
+  margin-left: 4rem;
   margin-top: 6rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
@@ -71,7 +71,7 @@ main {
 
 .start {
   width: 100%;
-  margin: 2rem 0;
+  margin: 3rem 0 2rem 0;
   font-weight: 800;
   font-size: 1.25rem;
 }
@@ -79,7 +79,7 @@ main {
 .form {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 2rem;
+  margin-left: 4rem;
   gap: 20px;
   width: 60%;
 }
@@ -99,13 +99,13 @@ button {
   color: white;
   padding: 10px 40px;
   border-radius: 4px;
-  margin-top: 2rem;
-  margin-left: 2rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
 }
 
 .already {
   margin-top: 2rem;
-  margin-left: 2rem;
+  margin-left: 4rem;
   font-weight: bold;
 }
 
