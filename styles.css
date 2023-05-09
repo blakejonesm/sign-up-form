@@ -6,8 +6,9 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   box-sizing: border-box;
+  font-family: 'Roboto', 'sans-serif';
 }
 
 main {
@@ -51,7 +52,7 @@ main {
 }
 
 .blurb,
-.input-area,
+.middle,
 .third {
   flex: 1;
 }
@@ -61,10 +62,55 @@ main {
   margin-top: 6rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
-  font-family: 'Roboto', sans-serif;
 }
 
-.input-area {
+.middle {
   background-color: #ffffff;
+  box-shadow: 0 10px 10px 0 rgba(150, 147, 147, 0.781);
 }
 
+.start {
+  width: 100%;
+  margin: 2rem 0;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  gap: 20px;
+  width: 60%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+button {
+  background-color: #596D48;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 4px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.already {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: 900;
+}
